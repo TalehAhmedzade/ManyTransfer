@@ -1,0 +1,21 @@
+.infoCard {
+  margin: 0 auto;
+  width: 40%;
+  .form {
+    /* position: fixed; */
+    top: 0;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    input {
+      padding: 4%;
+      margin: 2%;
+    }
+  }
+  button {
+    width: 50%;
+    margin: 2%;
+    margin-left: 25%;
+    padding: 3%;
+  }
+}
